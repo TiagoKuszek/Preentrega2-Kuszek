@@ -1,0 +1,1149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(17, 17, 17) ;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    text-transform: capitalize;
+    color: black;
+    position: fixed;
+    border-bottom: 2px solid black;
+
+    
+}
+
+.logo span {
+    color: rgb(202, 26, 26);
+}
+
+.logo{
+    font-size: 40px;
+    float: left;
+}
+
+.barra {
+    float: right;
+    margin-top: 7px;
+}
+
+.barra ul {
+    list-style: none;
+}
+
+.barra ul li {
+    display: inline-block;
+
+}
+
+.barra a {
+    text-decoration: none;
+    color: rgb(202, 26, 26)
+}
+
+.barra a:hover {
+    color: #686A6C;
+    text-decoration: underline;
+}
+
+main{
+    height: 475px;
+    width: 100%;
+    background-image: url(./img/banner.png);   
+    background-size: cover;
+    
+}
+
+.img-oculta{
+    display: none;
+}
+
+h1{
+    color: rgb(202, 26, 26);
+}
+
+.call p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.call a{
+    background-color: rgb(202, 26, 26);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px; 
+    border-radius: 7px;
+}
+
+.call a:hover {
+    color: black;
+    border: 2px solid black;
+}
+
+h2{
+    background-color: rgb(202, 26, 26);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.sec{
+    height: 500px;
+    width: 100%;
+    background-color: #686A6C;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+
+  
+}
+
+
+
+#sec2{
+    height: 350px;
+    width: 100%;
+}
+
+.verstappen{
+    height: 200px;
+    width: 25%;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.holaaa{
+    text-align: center;
+}
+
+.texto{
+    margin-top: 30px;
+    margin-left: 15px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    text-decoration: underline;
+}
+.texto2{
+
+    display: flex;
+    float: right;
+    margin-right: 250px;
+
+}
+.item {
+    height: 600px;
+    width: 580px;
+    background-color: #686A6C;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 120px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    background-image: url(./img/244432881_277580450779687_6709072103362049512_n.jpg);
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    filter: grayscale(100%);
+    transform: skew(5);
+    transition: 0.5s;
+}
+
+.item:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+    transform: skew(5);
+    transition: 0.5s;
+}
+.item5 {
+    display: inline-block;
+    margin-top: 40px;
+    list-style: none;
+    margin-right: 230px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+
+
+
+footer{
+    background-color: rgb(202, 26, 26);
+    text-align: center;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    border: 1px solid black;
+    
+}
+
+
+
+.redes{
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-align: right;
+   
+}
+
+.redes a{
+    color: white;
+}
+
+.redes a:hover{
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 1px black;
+}
+
+form{
+    background-color: #686A6C;
+    background-size: cover;
+    outline: none;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: none;
+    border: 0;
+}
+
+
+.ubicacion{
+    text-align: left;
+    background-color: #686A6C;
+}
+
+.mapa{
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+   
+    
+}
+
+.mapa:hover{
+    transform: scale(1.1);
+    transform: skew(5);
+    transition: 0.8s;
+}
+
+.formulario2{
+        display: inline;
+        float: right;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 90px;
+        margin-right: 180px;
+        outline: none;
+        border: 0;
+        
+}
+
+/* Aca tuve que repetir la imagen porque no encontre una distinta de la concesionaria*/
+
+.input1{
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid black;
+    
+}
+
+.input2{
+    border-radius: 3px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.quienessomos{
+    background-color: #686A6C;
+    background-size: cover;
+    margin-top: 150px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: right;
+
+}
+
+.imagen5{
+    background-color: #686A6C;
+    background-size: cover;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+
+}
+
+
+.parrafo{
+    display: inline;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.quehacemos{
+    background-color: #686A6C;
+    background-size: cover;
+    margin-top: 150px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: right;
+    
+}
+
+.imagen6{
+    background-color: #686A6C;
+    background-size: cover;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+
+}
+
+.parrafo1{
+    display: inline;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Aca tuve que poner exactamente las mismas caracteristicas porque la concesionaria tiene pocas fotos y no tengo informacion sobre su "Que hacemos" y "Quienes somos"*/
+
+.imagenes{
+    height: 500px;
+    width: 500px;
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.entregas1{
+    display: flex;
+    justify-content: center;
+    background-color: #686A6C;
+    background-size: cover;
+}
+
+.entregas2{
+    display: inline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin-top: 270px;
+    margin-right: 200px;
+}
+
+.auto123{
+    background-color: #686A6C;
+    padding: 30px 30px 30px 30px;
+}
+.auto1{
+   height: 400px;
+   margin-bottom: 40px;
+    
+}
+
+.datosauto{
+    float: right;
+    margin-top: 180px;
+    margin-right: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.col-lg-6{
+    padding: 15px;
+    text-align: center;
+}
+
+.imagen-auto{
+    height: 300px;
+    width: 500px;
+    filter: grayscale(100%);
+    transform: skew(5);
+    transition: 0.5s;
+ 
+}
+
+.imagen-auto:hover{
+    transform: scale(1.1);
+    transform: skew(5);
+    transition: 0.5s;
+    filter:grayscale(0%)
+    
+}
+ /* .subir{
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    border: 3px solid black;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+    line-height: 45px;
+    border-radius: 50%;
+    box-shadow: 0 0 3px white;
+}*/
+
+@media screen and (max-width:479px) {
+
+    header{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        position: relative;
+        padding: 40;
+    }
+
+    .logo{
+        font-size: 10px;
+        float: left;
+        padding-top: 5px;
+        padding-right: 50px;
+        /* ACA MI IDEA ES AGREGAR EL LOGO EN VES DE UNA PALABRA*/
+    }
+
+    .barra{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 9px;
+        
+    }
+
+    main{
+        height: 200px;
+        width: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .Ocultar{
+        display: none;
+    }
+
+    .modelos{
+        padding: 10px;
+    }
+
+
+    .texto{
+        font-size: 15px;
+    }
+
+    .verstappen{
+        width: 80%;
+        padding-right: 40px;
+    }
+
+    .redes{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .copy{
+        font-size: 15px;
+    }
+
+    .item{
+        height: 250px;
+        width: 80%;
+        margin-top: 120px;
+        margin-left: 30px;
+        justify-content: center;
+        background-size: 100% 100%;
+        filter: grayscale(100%);
+        transform: skew(5);
+        transition: 0.5s;
+        /* Aca mi idea es cuando arme la pagina de nuevo utilizar bootstrap y hacer un slider o carrusel */
+    }
+    .item:hover{
+        transform: scale(1.1);
+        filter: grayscale(0%);
+        transform: skew(5);
+        transition: 0.5s;
+    }
+    .item5{
+        display: none;
+    }
+}
+
+@media screen and (min-width:480px){
+    header{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        position: relative;
+        padding: 40;
+    }
+
+    .logo{
+        font-size: 20px;
+        float: left;
+        padding-top: 5px;
+        padding-right: 50px;
+        /* ACA MI IDEA ES AGREGAR EL LOGO EN VES DE UNA PALABRA*/
+    }
+
+    .barra{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 10px;
+        padding-top: 5px;
+        
+    }
+
+    main{
+        height: 200px;
+        width: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .Ocultar{
+        display: none;
+    }
+
+    .modelos{
+        padding: 10px;
+    }
+
+
+    .texto{
+        font-size: 15px;
+    }
+
+    .verstappen{
+        width: 80%;
+        padding-right: 40px;
+        /* Aca mi idea es cuando arme la pagina de nuevo utilizar bootstrap y hacer un slider o carrusel */
+    }
+
+    .redes{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .copy{
+        font-size: 15px;
+    }
+
+    .item{
+        height: 300px;
+        width: 80%;
+        margin-top: 100px;
+        margin-left: 50px;
+        justify-content: center;
+        background-size: 100% 100%;
+        /* Aca mi idea es cuando arme la pagina de nuevo utilizar bootstrap y hacer un slider o carrusel */
+    }
+
+    .item5{
+        display: none;
+    }
+}
+
+@media screen and (min-width:600px){
+    header{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        position: relative;
+        padding: 40;
+    }
+
+    .logo{
+        font-size: 15px;
+        float: left;
+        padding-top: 10px;
+        padding-right: 50px;
+        /* ACA MI IDEA ES AGREGAR EL LOGO EN VES DE UNA PALABRA*/
+    }
+
+    .barra{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 12px;
+        padding-top: 5px;
+        
+    }
+
+    main{
+        height: 300px;
+        width: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .Ocultar{
+        display: none;
+    }
+
+    .modelos{
+        padding: 10px;
+    }
+
+
+    .texto{
+        font-size: 15px;
+    }
+
+    .verstappen{
+        width: 50%;
+        height: 200px;
+        padding-right: 40px;
+        /* Aca mi idea es cuando arme la pagina de nuevo utilizar bootstrap y hacer un slider o carrusel */
+    }
+
+    .redes{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .copy{
+        font-size: 20px;
+    }
+
+    .item{
+        height: 300px;
+        width: 80%;
+        margin-top: 100px;
+        margin-left: 55px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background-size: 100% 100%;
+        /* Aca mi idea es cuando arme la pagina de nuevo utilizar bootstrap y hacer un slider o carrusel */
+    }
+
+    .item5{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:767px){
+    header{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        position: relative;
+        padding: 40;
+    }
+
+    .logo{
+        font-size: 20px;
+        float: left;
+        padding-top: 8px;
+        padding-right: 50px;
+        /* ACA MI IDEA ES AGREGAR EL LOGO EN VES DE UNA PALABRA*/
+    }
+
+    .barra{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+        padding-top: 5px;
+        
+    }
+
+    main{
+        height: 300px;
+        width: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .Ocultar{
+        display: none;
+    }
+
+    .modelos{
+        padding: 10px;
+    }
+
+
+    .texto{
+        font-size: 15px;
+    }
+
+    .verstappen{
+        width: 50%;
+        height: 200px;
+        padding-right: 40px;
+        /* Aca mi idea es cuando arme la pagina de nuevo utilizar bootstrap y hacer un slider o carrusel */
+    }
+
+    .redes{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .copy{
+        font-size: 20px;
+    }
+
+    .item{
+        height: 350px;
+        width: 80%;
+        margin-top: 75px;
+        margin-left: 65px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background-size: 100% 100%;
+        /* Aca mi idea es cuando arme la pagina de nuevo utilizar bootstrap y hacer un slider o carrusel */
+    }
+
+    .item5{
+        display: none;
+    }
+}
+
+@media screen and (min-width:920px){
+    header{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        position: relative;
+        padding: 40;
+    }
+
+    .logo{
+        font-size: 20px;
+        float: left;
+        padding-top: 10px;
+        padding-right: 50px;
+        /* ACA MI IDEA ES AGREGAR EL LOGO EN VES DE UNA PALABRA*/
+    }
+
+    .barra{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 18px;
+        padding-top: 5px;
+        
+    }
+
+    main{
+        height: 300px;
+        width: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+
+    .modelos{
+        padding: 10px;
+    }
+
+    
+
+    .texto{
+        font-size: 15px;
+    }
+
+    .verstappen{
+        width: 50%;
+        height: 200px;
+        padding-right: 40px;
+        /* Aca mi idea es cuando arme la pagina de nuevo utilizar bootstrap y hacer un slider o carrusel */
+    }
+
+    .redes{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .copy{
+        font-size: 20px;
+    }
+
+    .item{
+        height: 400px;
+        width: 80%;
+        margin-top: 55px;
+        margin-left: 75px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background-size: 100% 100%;
+        /* Aca mi idea es cuando arme la pagina de nuevo utilizar bootstrap y hacer un slider o carrusel */
+    }
+
+    .item5{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1023px){
+    header{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        position: relative;
+        padding: 40;
+    }
+
+    .logo{
+        font-size: 25px;
+        float: left;
+        padding-top: 5px;
+        padding-right: 50px;
+        /* ACA MI IDEA ES AGREGAR EL LOGO EN VES DE UNA PALABRA*/
+    }
+
+    .barra{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+        padding-top: 5px;
+        
+    }
+
+    main{
+        height: 400px;
+        width: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+
+    .modelos{
+        padding: 10px;
+    }
+
+    #mostrar{
+        display: flex;
+    }    
+
+    .texto{
+        font-size: 15px;
+    }
+
+    .verstappen{
+        width: 40%;
+        height: 200px;
+        padding-right: 40px;
+        /* Aca mi idea es cuando arme la pagina de nuevo utilizar bootstrap y hacer un slider o carrusel */
+    }
+
+    .redes{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .copy{
+        font-size: 20px;
+    }
+
+    .item{
+        height: 400px;
+        width: 50%;
+        margin-top: 45px;
+        margin-left: 40px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background-size: 100% 100%;
+        /* Aca mi idea es cuando arme la pagina de nuevo utilizar bootstrap y hacer un slider o carrusel */
+    }
+
+    .item5{
+        
+        display: inline-block;
+        margin-top: 40px;
+        list-style: none;
+        margin-right: 100px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    header{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        position: relative;
+        padding: 40;
+    }
+
+    .logo{
+        font-size: 10px;
+        float: left;
+        padding-top: 5px;
+        padding-right: 50px;
+        /* ACA MI IDEA ES AGREGAR EL LOGO EN VES DE UNA PALABRA*/
+    }
+
+    .barra{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 9px;
+        
+    }
+
+    main{
+        height: 200px;
+        width: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .redes{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .mapa{
+        width: 70%;
+        height: 200px;
+        padding-right: 85px;
+    }
+
+    .formulario2{
+        display: none;
+    }
+
+    .copy{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    header{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        position: relative;
+        padding: 40;
+    }
+
+    .logo{
+        font-size: 20px;
+        float: left;
+        padding-top: 5px;
+        padding-right: 50px;
+        /* ACA MI IDEA ES AGREGAR EL LOGO EN VES DE UNA PALABRA*/
+    }
+
+    .barra{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 10px;
+        padding-top: 5px;
+        
+    }
+
+    main{
+        height: 200px;
+        width: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .redes{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .mapa{
+        width: 70%;
+        height: 230px;
+        padding-left: 25px;
+    }
+
+    .formulario2{
+        display: none;
+    }
+
+    .copy{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:600px){
+    header{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        position: relative;
+        padding: 40;
+    }
+
+    .logo{
+        font-size: 15px;
+        float: left;
+        padding-top: 10px;
+        padding-right: 50px;
+        /* ACA MI IDEA ES AGREGAR EL LOGO EN VES DE UNA PALABRA*/
+    }
+
+    .barra{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 12px;
+        padding-top: 5px;
+        
+    }
+
+    main{
+        height: 300px;
+        width: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .redes{
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .mapa{
+        width: 70%;
+        height: 230px;
+        padding-left: 55px;
+    }
+
+    .formulario2{
+        display: none;
+    }
+
+    .copy{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:767px){
+    header{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        position: relative;
+        padding: 40;
+    }
+
+    .logo{
+        font-size: 20px;
+        float: left;
+        padding-top: 8px;
+        padding-right: 50px;
+        /* ACA MI IDEA ES AGREGAR EL LOGO EN VES DE UNA PALABRA*/
+    }
+
+    .barra{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+        padding-top: 5px;
+        
+    }
+
+    main{
+        height: 300px;
+        width: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .redes{
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .mapa{
+        width: 70%;
+        height: 230px;
+        padding-left: 105px;
+    }
+
+    .formulario2{
+        display: none;
+    }
+
+    .copy{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:1023px){
+    header{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        position: relative;
+        padding: 40;
+    }
+
+    .logo{
+        font-size: 25px;
+        float: left;
+        padding-top: 5px;
+        padding-right: 50px;
+        /* ACA MI IDEA ES AGREGAR EL LOGO EN VES DE UNA PALABRA*/
+    }
+
+    .barra{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+        padding-top: 5px;
+        
+    }
+
+    main{
+        height: 400px;
+        width: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .redes{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .mapa{
+        width: 70%;
+        height: 430px;
+        padding-left: 135px;
+    }
+
+    .formulario2{
+        display: none;
+    }
+
+    .copy{
+        font-size: 25px;
+    }
+}
